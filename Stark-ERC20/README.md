@@ -4,38 +4,40 @@ In this example, we are going to see how to deploy a simple ERC 20 token contrac
 
 # Getting Started
 
-First clone the git or download the git and unzip it. 
+First clone the git or download the git and unzip it.   
 
-You need to run terminal (on MAC) in the downloaded folder, or open the folder in Virtual Studio Code (windows), and this will be your developing platform.
+You need to run terminal (on MAC) in the downloaded folder, or open the folder in Virtual Studio Code (windows), and this will be your developing platform.  
+Mac: To open terminal in the folder, right click folder and select  "New Terminal at Folder"  
 
-Mac: To open terminal in the folder, right click folder and select  "New Terminal at Folder"
+In the terminal, enter one by one:    
 
-In the terminal, enter one by one:
 
-pip3 install cairo-lang
-python3 -m venv env
-source env/bin/activate
-pip install cairo-nile
+pip3 install cairo-lang  
+python3 -m venv env  
+source env/bin/activate  
+pip install cairo-nile  
 
-nile init
+nile init  
 
-# Compiling and Deploying
+# Compiling and Deploying  
 
-To compile, run the commands:
+To compile, run the commands:  
 
-nile compile
+nile compile  
 
-On comliling with the above command, we will see the following messages:
+On comliling with the above command, we will see the following messages:  
 
-🤖 Compiling all Cairo contracts in the contracts directory
-🔨 Compiling contracts/contract.cairo
-🔨 Compiling contracts/ERC20_base.cairo
-🔨 Compiling contracts/Deploy_ERC20.cairo
-✅ Done
+🤖 Compiling all Cairo contracts in the contracts directory  
+🔨 Compiling contracts/contract.cairo  
+🔨 Compiling contracts/ERC20_base.cairo  
+🔨 Compiling contracts/Deploy_ERC20.cairo  
+✅ Done  
 
-Now the contract is compiled, we will deploy it:
+Now the contract is compiled, we will deploy it:  
 
-Run:
+
+Run:  
+
 
 nile deploy Deploy_ERC20 <NAME> <SYMBOL> <SUPPLY> 0 <ADDRESS> --network goerl  
 
