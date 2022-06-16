@@ -39,7 +39,7 @@ Now the contract is compiled, we will deploy it:
 Run:  
 
 
-nile deploy Deploy_ERC20 NAME SYMBOL SUPPLY 0 ADDRESS --network goerl  
+nile deploy Deploy_ERC20 NAME SYMBOL SUPPLY 0 ADDRESS --network goerli    
 
 Here, NAME SYMBOL and SUPPLY should be in 'felt' format.   
 To convert a number or string into felt, please use this tool : https://cairo-utils-web.vercel.app
