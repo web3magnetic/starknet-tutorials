@@ -44,6 +44,8 @@ A '0' is placed after Supply, since Supply is a large integer and on converting 
 The Address will contain the address to deploy the contract to. This will be your ArgentX wallet address.
 
 Example of correct deploy code:
+  
+  
 nile deploy Deploy_ERC20 1146178124 1146178124 470000000000000000000 0 0x6E113C63B19D65cBEBfC7FeD0E4789FB442Cc352 --network goerl
 
 Once the deploy command is completed, you will see the message:
