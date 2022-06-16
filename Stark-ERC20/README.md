@@ -37,21 +37,24 @@ Now the contract is compiled, we will deploy it:
 
 Run:
 
-nile deploy Deploy_ERC20 <NAME> <SYMBOL> <SUPPLY> 0 <ADDRESS> --network goerl
+nile deploy Deploy_ERC20 <NAME> <SYMBOL> <SUPPLY> 0 <ADDRESS> --network goerl  
 
 Here, Name, Symbol, Supply should be in 'felt' format. To convert a number or string into felt, please use this tool : https://cairo-utils-web.vercel.app
-A '0' is placed after Supply, since Supply is a large integer and on converting to felt, it will be a felt array. 
-The Address will contain the address to deploy the contract to. This will be your ArgentX wallet address.
+
+  
+  A '0' is placed after Supply, since Supply is a large integer and on converting to felt, it will be a felt array. 
+
+  The Address will contain the address to deploy the contract to. This will be your ArgentX wallet address.
 
 Example of correct deploy code:
   
   
-nile deploy Deploy_ERC20 1146178124 1146178124 470000000000000000000 0 0x6E113C63B19D65cBEBfC7FeD0E4789FB442Cc352 --network goerl
+nile deploy Deploy_ERC20 1146178124 1146178124 470000000000000000000 0 0x6E113C63B19D65cBEBfC7FeD0E4789FB442Cc352 --network goerl  
 
-Once the deploy command is completed, you will see the message:
-🚀 Deploying Deploy_ERC20
-⏳ ️Deployment of Deploy_ERC20 successfully sent at XXXXXX
-🧾 Transaction hash:
-📦 Registering XXXXXX
+Once the deploy command is completed, you will see the message:  
+🚀 Deploying Deploy_ERC20    
+⏳ ️Deployment of Deploy_ERC20 successfully sent at XXXXXX  
+🧾 Transaction hash:  
+📦 Registering XXXXXX  
 
 Now, you can go to the registered address on Voyager Goerli, and use Write contract to claim some tokens from the faucet. 
