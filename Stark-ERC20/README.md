@@ -52,7 +52,7 @@ To convert a number or string into felt, please use this tool : https://cairo-ut
 Example of correct deploy code:
   
   
-nile deploy Deploy_ERC20 1146178124 1146178124 470000000000000000000 0 0x6E113C63B19D65cBEBfC7FeD0E4789FB442Cc352 --network goerl  
+nile deploy Deploy_ERC20 1146178124 1146178124 470000000000000000000 0 0x6E113C63B19D65cBEBfC7FeD0E4789FB442Cc352 --network goerli  
 
 Once the deploy command is completed, you will see the message:  
 🚀 Deploying Deploy_ERC20    
