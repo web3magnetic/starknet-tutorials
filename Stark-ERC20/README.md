@@ -7,7 +7,9 @@ In this example, we are going to see how to deploy a simple ERC 20 token contrac
 First clone the git or download the git and unzip it.   
 
 You need to run terminal (on MAC) in the downloaded folder, or open the folder in Virtual Studio Code (windows), and this will be your developing platform.  
-Mac: To open terminal in the folder, right click folder and select  "New Terminal at Folder"  
+Mac: To open terminal in the folder, right click folder and select  "New Terminal at Folder".
+In this case, we will be performing all these tasks within the "Stark-ERC20" folder on your terminal environment. So please make sure you are executing within this folder. 
+
 
 In the terminal, enter one by one:    
 
